@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/beber/OneDrive/Bureau/tp4/langage-c-tp-4-ex-4-clementBernard130",
-      "program": "c:/Users/beber/OneDrive/Bureau/tp4/langage-c-tp-4-ex-4-clementBernard130/build/Debug/outDebug",
+      "cwd": "c:/Users/beber/OneDrive/Bureau/TicTacToe",
+      "program": "c:/Users/beber/OneDrive/Bureau/TicTacToe/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
