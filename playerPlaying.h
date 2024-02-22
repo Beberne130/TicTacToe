@@ -1,5 +1,9 @@
 #ifndef playerPlaying_H
 #define playerPlaying_H
-//code
+
+#include <stdbool.h>
+bool gameOver();
+void playerPlaying();
+
 
 #endif 
