@@ -2,8 +2,8 @@
 #define playerPlaying_H
 
 #include <stdbool.h>
-bool gameOver();
 void playerPlaying();
+bool gameOverPlayer();
 
 
 #endif 

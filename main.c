@@ -18,15 +18,15 @@ int main() {
             printf("Vous avez choisi de jouer contre l'IA.\n");
             iaPlaying();
             break;
-        /*case 2:
+        case 2:
             printf("Vous avez choisi de jouer en LAN.\n");
             playerPlaying();
-            break;*/
+            break;
         case 3:
             printf("Vous avez choisi de quitter le jeu.\n");
             break;
         default: // Gérer le cas où l'utilisateur entre une valeur invalide
-            printf("Choix invalide. Veuillez choisir parmi les options disponibles.\n");
+            printf("Choix invalide. Veuillez choisir parmi les options disponibles.Vous appuyer sur %d\n", choix);
             break;
     }
 

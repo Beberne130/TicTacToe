@@ -19,7 +19,7 @@ void playerPlaying () {
     printf("|  %c  |  %c  |  %c  |\n", case7, case8, case9);
     printf("-------------------\n\n");
     
-    while (!gameOver())
+    while (!gameOverPlayer())
     {
         int choix;
         printf("Entrer le numéro de votre case : \n");
@@ -65,7 +65,7 @@ void playerPlaying () {
         printf("|  %c  |  %c  |  %c  |\n", case7, case8, case9);
         printf("-------------------\n\n");
 
-        if(gameOver()){
+        if(gameOverPlayer()){
             break;
         }
         int choix2;
@@ -118,7 +118,7 @@ void playerPlaying () {
 
 }
 
-bool gameOver(){
+bool gameOverPlayer(){
     // Vérifier les conditions de victoire
     // Vérifier les lignes
     if ((case1 == case2 && case2 == case3) ||
