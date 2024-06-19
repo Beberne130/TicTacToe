@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include "iaPlaying.h"
 #include "playerPlaying.h"
+#include "playerPlaying.h"
 
 int main() {
     printf("------------MENU TicTacToe------------\n");
     printf("1. JOUER CONTRE L'IA\n");
     printf("2. JOUER EN LAN\n\n");
     printf("3. Quitter le jeu\n");
-    printf("Entrer votre choix : \n");
+    printf("Entrer votre choix : ");
     
     int choix;
     scanf("%d", &choix); // Lire le choix de l'utilisateur en utilisant l'adresse de la variable
